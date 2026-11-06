@@ -20,5 +20,5 @@
 <text x="304" y="318" font-family="Arial, sans-serif" font-size="18" fill="#0f2540">Music app</text>
 <rect x="620" y="298" width="72" height="28" rx="14" fill="#e67e22"/>
 <circle cx="678" cy="312" r="11" fill="#ffffff"/>
-<text x="284" y="385" font-family="Arial, sans-serif" font-size="15" fill="#5b6b7c">Path: Settings &gt; Apps &gt; Startup — switch Off to stop an app opening at startup.</text>
+<text x="284" y="385" font-family="Arial, sans-serif" font-size="15" fill="#5b6b7c">Path: Settings &gt; Apps &gt; Startup</text>
 </svg>

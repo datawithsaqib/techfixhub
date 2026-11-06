@@ -18,5 +18,5 @@
 <circle cx="680" cy="228" r="11" fill="#ffffff"/>
 <rect x="304" y="272" width="412" height="56" rx="8" fill="#ffffff" stroke="#d5dde5" stroke-width="2"/>
 <text x="324" y="307" font-family="Arial, sans-serif" font-size="18" fill="#0f2540">HomeWiFi — Connected</text>
-<text x="304" y="385" font-family="Arial, sans-serif" font-size="15" fill="#5b6b7c">Path: Settings &gt; Network &amp; internet &gt; Wi-Fi — check Wi-Fi is on first.</text>
+<text x="304" y="385" font-family="Arial, sans-serif" font-size="15" fill="#5b6b7c">Path: Settings &gt; Network &amp; internet &gt; Wi-Fi</text>
 </svg>
