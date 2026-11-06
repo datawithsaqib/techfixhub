@@ -1,5 +1,4 @@
 # TechFixHub
 User-agent: *
 Allow: /
-Disallow: /search/?q=
 Sitemap: https://datawithsaqib.github.io/techfixhub/sitemap.xml

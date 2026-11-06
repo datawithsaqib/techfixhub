@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-labelledby="t d">
+<title id="t">Settings path to Wi-Fi settings in Windows 11</title>
+<desc id="d">An original diagram showing the path Settings, then Network and internet, then Wi-Fi, with the Wi-Fi switch turned on and a network list.</desc>
+<rect width="800" height="450" fill="#f4f6f8"/>
+<rect x="60" y="40" width="680" height="370" rx="12" fill="#ffffff" stroke="#d5dde5" stroke-width="2"/>
+<rect x="60" y="40" width="680" height="52" rx="12" fill="#0f2540"/>
+<text x="84" y="73" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#ffffff">Settings</text>
+<rect x="60" y="92" width="220" height="318" fill="#eef2f6"/>
+<text x="80" y="130" font-family="Arial, sans-serif" font-size="17" fill="#5b6b7c">System</text>
+<text x="80" y="165" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#0f2540">Network &amp; internet</text>
+<text x="80" y="200" font-family="Arial, sans-serif" font-size="17" fill="#5b6b7c">Personalization</text>
+<text x="80" y="235" font-family="Arial, sans-serif" font-size="17" fill="#5b6b7c">Apps</text>
+<text x="304" y="140" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#0f2540">Network &amp; internet &gt; Wi-Fi</text>
+<text x="304" y="175" font-family="Arial, sans-serif" font-size="16" fill="#5b6b7c">Wi-Fi is on. Airplane mode is off.</text>
+<rect x="304" y="200" width="412" height="56" rx="8" fill="#ffffff" stroke="#d5dde5" stroke-width="2"/>
+<text x="324" y="235" font-family="Arial, sans-serif" font-size="18" fill="#0f2540">Wi-Fi</text>
+<rect x="640" y="214" width="56" height="28" rx="14" fill="#e67e22"/>
+<circle cx="680" cy="228" r="11" fill="#ffffff"/>
+<rect x="304" y="272" width="412" height="56" rx="8" fill="#ffffff" stroke="#d5dde5" stroke-width="2"/>
+<text x="324" y="307" font-family="Arial, sans-serif" font-size="18" fill="#0f2540">HomeWiFi — Connected</text>
+<text x="304" y="385" font-family="Arial, sans-serif" font-size="15" fill="#5b6b7c">Path: Settings &gt; Network &amp; internet &gt; Wi-Fi — check Wi-Fi is on first.</text>
+</svg>

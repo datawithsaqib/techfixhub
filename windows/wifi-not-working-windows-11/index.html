@@ -11,6 +11,7 @@
 <meta property="og:description" content="No internet, no Wi-Fi icon, or Wi-Fi keeps dropping? 10 fixes in order.">
 <meta property="og:url" content="https://datawithsaqib.github.io/techfixhub/windows/wifi-not-working-windows-11/">
 <link rel="stylesheet" href="/techfixhub/assets/style.css">
+<link rel="icon" type="image/svg+xml" href="/techfixhub/assets/favicon.svg">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"Article","headline":"Wi-Fi Not Working on Windows 11? 10 Fixes to Try","description":"No internet, no Wi-Fi icon, or Wi-Fi keeps dropping? Try these 10 fixes in order.","author":{"@type":"Person","name":"Saqib","url":"https://datawithsaqib.github.io/techfixhub/about/author-saqib.html"},"datePublished":"2026-11-06","dateModified":"2026-11-06","publisher":{"@type":"Organization","name":"TechFixHub","url":"https://datawithsaqib.github.io/techfixhub/"},"mainEntityOfPage":"https://datawithsaqib.github.io/techfixhub/windows/wifi-not-working-windows-11/"}
 </script>
@@ -42,19 +43,24 @@
 <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/techfixhub/">Home</a> › <a href="/techfixhub/windows/">Windows Help</a> › Wi-Fi Not Working on Windows 11</nav>
 <article>
 <h1>Wi-Fi Not Working on Windows 11? 10 Fixes to Try</h1>
-<p class="article-meta">By <a href="/techfixhub/about/author-saqib.html">Saqib</a> · Published: 6 Nov 2026 · Last reviewed: 6 Nov 2026 · Tested on: Windows 11 24H2 / 25H2 (steps follow Microsoft support guidance)</p>
+<p class="article-meta">By <a href="/techfixhub/about/author-saqib.html">Saqib</a> · Published: 6 Nov 2026 · Last reviewed: 6 Nov 2026 · Steps checked against Microsoft Support guidance on 6 Nov 2026. We have not tested these steps on a physical Windows PC.</p>
 
 <div class="quick-answer">
 <h2>Start here</h2>
 <p>First, check if other devices can use the same Wi-Fi. If they cannot, the problem is your router or internet service — restart the router. If other devices work fine, the problem is your PC. Restart your PC, then run the Network troubleshooter in <strong>Settings &gt; System &gt; Troubleshoot &gt; Other troubleshooters &gt; Network and Internet</strong>.</p>
 </div>
 
+<figure>
+<img src="/techfixhub/assets/images/wifi-not-working-windows-11.svg" alt="Diagram of the Windows 11 Settings window with Network and internet selected and the Wi-Fi page open, showing Wi-Fi switched on and a connected network" width="800" height="450" loading="lazy">
+<figcaption>Illustration — not a real Windows screenshot. It shows the path Settings &gt; Network &amp; internet &gt; Wi-Fi.</figcaption>
+</figure>
+
 <h2>What to try first</h2>
 <table>
 <thead><tr><th>Symptom</th><th>Try first</th><th>Time</th></tr></thead>
 <tbody>
 <tr><td>No Wi-Fi at all, other devices also offline</td><td>Fix 1 — restart the router</td><td>5 minutes</td></tr>
-<tr><td>Wi-Fi icon is missing</td><td>Fix 3 — check Wi-Fi is on, then Fix 5 — restart the Wi-Fi driver</td><td>5 minutes</td></tr>
+<tr><td>Wi-Fi icon is missing</td><td>Fix 3 — check Wi-Fi is on, then Fix 8 — disable and re-enable the Wi-Fi adapter</td><td>5 minutes</td></tr>
 <tr><td>Connected but “No internet”</td><td>Fix 2 — restart PC, then Fix 4 — forget and reconnect</td><td>5 minutes</td></tr>
 <tr><td>Wi-Fi keeps dropping</td><td>Fix 6 — update the driver, then Fix 7 — move closer to the router</td><td>10 minutes</td></tr>
 </tbody>
@@ -70,8 +76,8 @@
 <li><strong>Update the Wi-Fi driver.</strong> Go to <strong>Settings &gt; Windows Update &gt; Advanced options &gt; Optional updates</strong> and install driver updates if any are listed. You can also open Device Manager, expand <strong>Network adapters</strong>, right-click your Wi-Fi adapter, and choose <strong>Update driver</strong>.</li>
 <li><strong>Move closer to the router, or remove interference.</strong> Thick walls, metal, and other electronics can weaken Wi-Fi. Try the same room as the router. If it works there, the signal is the problem, not your PC.</li>
 <li><strong>Disable and re-enable the Wi-Fi adapter.</strong> Open Device Manager, expand <strong>Network adapters</strong>, right-click your Wi-Fi adapter, choose <strong>Disable device</strong>, wait a few seconds, then right-click again and choose <strong>Enable device</strong>.</li>
-<li><strong>Reinstall the Wi-Fi driver.</strong> In Device Manager, right-click your Wi-Fi adapter and choose <strong>Uninstall device</strong>. Then restart your PC — Windows will reinstall the driver automatically. Do this only if you can restart and you have no unsaved work open.</li>
-<li><strong>Network Reset — last resort.</strong> Go to <strong>Settings &gt; Network &amp; internet &gt; Advanced network settings &gt; Network reset</strong> and select <strong>Reset now</strong>. This removes all saved Wi-Fi networks and passwords, so you will need to reconnect and retype passwords afterwards. Restart your PC after the reset.</li>
+<li><strong>Reinstall the Wi-Fi driver.</strong> In Device Manager, right-click your Wi-Fi adapter and choose <strong>Uninstall device</strong>. Then restart your PC — Windows will reinstall the driver automatically. <strong>Warning:</strong> only do this if you have another way to get online, or the driver file saved on your PC — if Windows cannot find the driver, Wi-Fi may stay off. Do this only if you can restart and you have no unsaved work open.</li>
+<li><strong>Network Reset — last resort.</strong> Go to <strong>Settings &gt; Network &amp; internet &gt; Advanced network settings &gt; Network reset</strong> and select <strong>Reset now</strong>. <strong>Warning:</strong> write down your Wi-Fi password first. This removes all saved Wi-Fi networks and passwords, so you will need to reconnect and retype passwords afterwards. Restart your PC after the reset.</li>
 </ol>
 
 <div class="warning">
@@ -109,12 +115,12 @@
 </div>
 
 <h2>Sources</h2>
-<p class="sources">Steps in this guide follow Microsoft Support guidance for Windows 11 Wi-Fi and network problems, including the Network troubleshooter and Network Reset. See <a href="https://support.microsoft.com/">Microsoft Support</a> for the latest official help. If a Settings path has changed in a newer Windows update, <a href="/techfixhub/contact/">tell us</a> and we will update this guide.</p>
+<p class="sources">Steps in this guide follow Microsoft Support guidance for Windows 11 Wi-Fi and network problems, including the Network troubleshooter and Network Reset. See <a href="https://support.microsoft.com/en-us/windows/fix-wi-fi-connection-issues-in-windows-9424a1f7-6a3b-65a6-4d78-7f07eee84d2c">Microsoft Support — Fix Wi-Fi connection issues in Windows</a> for the latest official help. If a Settings path has changed in a newer Windows update, <a href="/techfixhub/contact/">tell us</a> and we will update this guide.</p>
 </article>
 </div></main>
 <footer class="site-footer"><div class="wrap">
 <div class="footer-grid">
-<div><h3>TechFixHub</h3><p>Clear, tested answers to everyday tech questions.</p></div>
+<div><h3>TechFixHub</h3><p>Clear, checked answers to everyday tech questions.</p></div>
 <div><h3>Guides</h3><p><a href="/techfixhub/windows/">Windows Help</a><br><a href="/techfixhub/software/">Software Tutorials</a><br><a href="/techfixhub/search/">Search</a></p></div>
 <div><h3>About</h3><p><a href="/techfixhub/about/">About</a><br><a href="/techfixhub/contact/">Contact</a><br><a href="/techfixhub/editorial-policy/">Editorial Policy</a><br><a href="/techfixhub/privacy/">Privacy Policy</a><br><a href="/techfixhub/terms/">Terms</a></p></div>
 </div>
