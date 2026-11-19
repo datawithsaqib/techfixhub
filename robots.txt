@@ -1,4 +1,4 @@
 # TechFixHub
 User-agent: *
 Allow: /
-Sitemap: https://datawithsaqib.github.io/techfixhub/sitemap.xml
+Sitemap: https://techfixhub.pages.dev/sitemap.xml

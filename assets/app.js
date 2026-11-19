@@ -13,9 +13,9 @@
 
   // Fallback index, used if search-index.json cannot be fetched.
   var FALLBACK_ARTICLES = [
-    { title: 'How to Speed Up Windows 11: 9 Fixes That Actually Help', url: '/techfixhub/windows/how-to-speed-up-windows-11/', desc: 'A slow Windows 11 PC is often caused by startup apps, full storage, or old drivers. Try these fixes in order.', cat: 'Windows help', keywords: 'slow speed performance startup storage update drivers power' },
-    { title: 'Wi-Fi Not Working on Windows 11? 10 Fixes to Try', url: '/techfixhub/windows/wifi-not-working-windows-11/', desc: 'No internet, no Wi-Fi icon, or Wi-Fi keeps dropping? Work through these fixes, from the quick checks to Network Reset.', cat: 'Windows help', keywords: 'wifi wi-fi wireless internet network router driver no internet disconnect' },
-    { title: 'How to Disable Startup Apps in Windows 11', url: '/techfixhub/windows/disable-startup-apps-windows-11/', desc: 'Stop apps opening when Windows starts, so your PC boots faster. Use Settings or Task Manager.', cat: 'Windows help', keywords: 'startup apps boot task manager settings disable enable' }
+    { title: 'How to Speed Up Windows 11: 9 Fixes That Actually Help', url: '/windows/how-to-speed-up-windows-11/', desc: 'A slow Windows 11 PC is often caused by startup apps, full storage, or old drivers. Try these fixes in order.', cat: 'Windows help', keywords: 'slow speed performance startup storage update drivers power' },
+    { title: 'Wi-Fi Not Working on Windows 11? 10 Fixes to Try', url: '/windows/wifi-not-working-windows-11/', desc: 'No internet, no Wi-Fi icon, or Wi-Fi keeps dropping? Work through these fixes, from the quick checks to Network Reset.', cat: 'Windows help', keywords: 'wifi wi-fi wireless internet network router driver no internet disconnect' },
+    { title: 'How to Disable Startup Apps in Windows 11', url: '/windows/disable-startup-apps-windows-11/', desc: 'Stop apps opening when Windows starts, so your PC boots faster. Use Settings or Task Manager.', cat: 'Windows help', keywords: 'startup apps boot task manager settings disable enable' }
   ];
   var ARTICLES = FALLBACK_ARTICLES;
 
@@ -70,7 +70,7 @@
 
   // Load the generated search index. On failure, keep the fallback list.
   if (typeof fetch === 'function') {
-    fetch('/techfixhub/assets/search-index.json')
+    fetch('/assets/search-index.json')
       .then(function (r) { if (!r.ok) throw new Error('index not loaded'); return r.json(); })
       .then(function (data) {
         var list = data && data.articles ? data.articles : data;
@@ -91,7 +91,7 @@
       e.preventDefault();
       var input = f.querySelector('input[type="search"], input[name="q"]');
       var q = input ? input.value.trim() : '';
-      window.location.href = '/techfixhub/search/?q=' + encodeURIComponent(q);
+      window.location.href = '/search/?q=' + encodeURIComponent(q);
     });
   });
 })();
