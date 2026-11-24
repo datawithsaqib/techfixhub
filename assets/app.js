@@ -47,7 +47,8 @@
       return;
     }
     box.innerHTML = hits.map(function (a) {
-      return '<div class="search-result"><span class="kicker">' + escapeHtml(a.cat || 'Guide') + '</span><h3><a href="' + escapeHtml(a.url) + '">' + escapeHtml(a.title) + '</a></h3><p>' + escapeHtml(a.desc) + '</p></div>';
+      var base = location.pathname.indexOf('/techfixhub/') === 0 ? '/techfixhub' : '';
+      return '<div class="search-result"><span class="kicker">' + escapeHtml(a.cat || 'Guide') + '</span><h3><a href="' + escapeHtml(base + a.url) + '">' + escapeHtml(a.title) + '</a></h3><p>' + escapeHtml(a.desc) + '</p></div>';
     }).join('');
   }
 
@@ -70,7 +71,7 @@
 
   // Load the generated search index. On failure, keep the fallback list.
   if (typeof fetch === 'function') {
-    fetch('/assets/search-index.json')
+    fetch((location.pathname.indexOf('/techfixhub/') === 0 ? '/techfixhub' : '') + '/assets/search-index.json')
       .then(function (r) { if (!r.ok) throw new Error('index not loaded'); return r.json(); })
       .then(function (data) {
         var list = data && data.articles ? data.articles : data;
@@ -91,7 +92,7 @@
       e.preventDefault();
       var input = f.querySelector('input[type="search"], input[name="q"]');
       var q = input ? input.value.trim() : '';
-      window.location.href = '/search/?q=' + encodeURIComponent(q);
+      window.location.href = (location.pathname.indexOf('/techfixhub/') === 0 ? '/techfixhub' : '') + '/search/?q=' + encodeURIComponent(q);
     });
   });
 })();
