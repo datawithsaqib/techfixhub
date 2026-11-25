@@ -15,7 +15,7 @@
   var FALLBACK_ARTICLES = [
     { title: 'How to Speed Up Windows 11: 9 Fixes That Actually Help', url: '/windows/how-to-speed-up-windows-11/', desc: 'A slow Windows 11 PC is often caused by startup apps, full storage, or old drivers. Try these fixes in order.', cat: 'Windows help', keywords: 'slow speed performance startup storage update drivers power' },
     { title: 'Wi-Fi Not Working on Windows 11? 10 Fixes to Try', url: '/windows/wifi-not-working-windows-11/', desc: 'No internet, no Wi-Fi icon, or Wi-Fi keeps dropping? Work through these fixes, from the quick checks to Network Reset.', cat: 'Windows help', keywords: 'wifi wi-fi wireless internet network router driver no internet disconnect' },
-    { title: 'How to Disable Startup Apps in Windows 11', url: '/windows/disable-startup-apps-windows-11/', desc: 'Stop apps opening when Windows starts, so your PC boots faster. Use Settings or Task Manager.', cat: 'Windows help', keywords: 'startup apps boot task manager settings disable enable' }
+    { title: 'How to Turn Off Apps Opening on Startup in Windows 11', url: '/windows/disable-startup-apps-windows-11/', desc: 'Stop apps opening when Windows starts, so your PC boots faster. Use Settings or Task Manager.', cat: 'Windows help', keywords: 'startup apps boot task manager settings disable enable' }
   ];
   var ARTICLES = FALLBACK_ARTICLES;
 
